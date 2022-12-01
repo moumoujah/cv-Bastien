@@ -145,6 +145,7 @@ section{
 .bloc_left{
      justify-content:flex-start;
    flex-direction:row;
+     display:flex;
    width: auto;
    min-height: 200px;
    height:fit-content;
