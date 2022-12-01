@@ -143,8 +143,9 @@ section{
   
 }
 .bloc_left{
+     justify-content:flex-start;
+   flex-direction:row;
    width: auto;
-   justify-content: center;
    min-height: 200px;
    height:fit-content;
    
