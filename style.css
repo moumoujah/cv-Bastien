@@ -1,0 +1,159 @@
+
+html{
+    
+    background-position: center;
+    background-size: cover;
+}
+
+html,body{
+    margin:0;
+    padding: 0;
+    
+    width: 100%;
+   
+}
+
+#bloc_page{
+    width: 100%;
+  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: rgb(13, 79, 101);
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-image:url(./back\ header.jpg) ;
+    display: flex;
+    justify-content: center
+}
+
+
+
+section{
+    display: flex;
+    height: 100%;
+    width: 100%;
+  
+}
+
+.bloc_left{
+    height: 900px;
+    width: 20%;
+    padding: 15px;
+    padding-top: 30px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+   
+}
+
+.contact{
+
+    height: 200px;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ a{
+text-decoration:none;
+}
+
+.formations{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.loisirs{
+    
+    height: 200px;
+}
+
+.etudes{
+    color: rgb(248, 73, 73);
+}
+
+.bloc_right{
+   
+    width: 80%;
+    padding: 20px;
+    padding-left: 25px;
+    background-color: rgba(234, 234, 234, 0.87);
+    padding-bottom: 20px;
+    
+}
+
+
+.barre_expériences{
+   height: 4px;
+   width: 250px;
+   background-color: rgb(17, 158, 130);
+   border-radius: 50%;
+}
+
+.bloc_right h2{
+   height: 17px;
+}
+
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+        
+    }
+section{
+   display: flex;
+   flex-direction: column-reverse;
+  
+}
+.bloc_left{
+    display: flex;
+    flex-direction: row;
+   width: auto;
+   justify-content: center;
+   height: 200px;
+  
+   
+}
+
+.bloc_right{
+    width: auto;
+    padding-right: 30px;
+}
+
+
+.contact{
+   width: 300px;
+}
+.formations{
+    width: 300px;
+}
+
+}
